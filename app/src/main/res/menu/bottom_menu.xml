@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/astronomyFragment"
+        android:icon="@drawable/icon_star"
+        android:title="@string/astronomy_picture_of_the_day"/>
+
+    <item
+        android:id="@+id/marsRoverFragment"
+        android:icon="@drawable/icon_rocket"
+        android:title="@string/mars_rover_photos"/>
+
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/icon_favorite"
+        android:title="@string/favorites"/>
+</menu>

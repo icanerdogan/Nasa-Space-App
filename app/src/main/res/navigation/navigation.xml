@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/astronomyFragment">
+
+    <fragment
+        android:id="@+id/astronomyFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.AstronomyFragment"
+        android:label="fragment_astronomy"
+        tools:layout="@layout/fragment_astronomy" >
+    </fragment>
+    <fragment
+        android:id="@+id/marsRoverFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.MarsRoverFragment"
+        android:label="fragment_mars_rover"
+        tools:layout="@layout/fragment_mars_rover" >
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

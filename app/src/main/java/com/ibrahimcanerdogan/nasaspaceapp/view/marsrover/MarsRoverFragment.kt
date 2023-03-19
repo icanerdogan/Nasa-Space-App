@@ -1,4 +1,4 @@
-package com.ibrahimcanerdogan.nasaspaceapp.view.fragment
+package com.ibrahimcanerdogan.nasaspaceapp.view.marsrover
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.ibrahimcanerdogan.nasaspaceapp.R
 
 
-class AstronomyFragment : Fragment() {
+class MarsRoverFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +18,7 @@ class AstronomyFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_astronomy, container, false)
+        return inflater.inflate(R.layout.fragment_mars_rover, container, false)
     }
 
 }

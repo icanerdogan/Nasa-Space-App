@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/astronomyFragment"
-        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.AstronomyFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.astronomy.AstronomyFragment"
         android:label="fragment_astronomy"
         tools:layout="@layout/fragment_astronomy" >
     </fragment>
     <fragment
         android:id="@+id/marsRoverFragment"
-        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.MarsRoverFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.marsrover.MarsRoverFragment"
         android:label="fragment_mars_rover"
         tools:layout="@layout/fragment_mars_rover" >
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.fragment.FavoriteFragment"
+        android:name="com.ibrahimcanerdogan.nasaspaceapp.view.favorite.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
 </navigation>

@@ -1,5 +1,7 @@
 <h1> Nasa Space App </h1>
 
-Light Mode Screen             |  Dark Mode Screen 
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/base_light.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/base_dark.png) 
+Splash Screen           |  Astronomy Info Screen       |      Astronomy Detail Screen 
+:-------------------------:|:-------------------------: | :-------------------------:
+![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/splash_screenv1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/astronomy_info_screenv1.png) | ![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/astronomy_detail_screenv1.png)  
+
+

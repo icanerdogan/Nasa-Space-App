@@ -2,8 +2,8 @@ package com.ibrahimcanerdogan.nasaspaceapp.view.astronomy
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import com.ibrahimcanerdogan.nasaspaceapp.domain.usecase.GetAstronomyUseCase
-import com.ibrahimcanerdogan.nasaspaceapp.domain.usecase.UpdateAstronomyUseCase
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.usecase.GetAstronomyUseCase
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.usecase.UpdateAstronomyUseCase
 
 class AstronomyViewModel(
     private val getAstronomyUseCase: GetAstronomyUseCase,

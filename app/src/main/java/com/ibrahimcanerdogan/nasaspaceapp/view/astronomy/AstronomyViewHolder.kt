@@ -17,7 +17,7 @@ class AstronomyViewHolder(private val binding: CardAstronomyBinding) : RecyclerV
             // TODO : ADD FAVORITE
         }
         // ImageView
-        GlideUtil.setImage(astronomy, binding)
+        GlideUtil.setImageAstronomy(astronomy, binding)
 
         // Info
         binding.astronomyTextTitle.text = astronomy.astronomyTitle

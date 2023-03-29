@@ -1,4 +1,4 @@
-package com.ibrahimcanerdogan.nasaspaceapp.domain.repository
+package com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.repository
 
 import com.ibrahimcanerdogan.nasaspaceapp.model.astronomy.Astronomy
 

@@ -4,7 +4,7 @@ import android.util.Log
 import com.ibrahimcanerdogan.nasaspaceapp.data.repository.astronomy.datasource.AstronomyCacheDataSource
 import com.ibrahimcanerdogan.nasaspaceapp.data.repository.astronomy.datasource.AstronomyLocalDataSource
 import com.ibrahimcanerdogan.nasaspaceapp.data.repository.astronomy.datasource.AstronomyRemoteDataSource
-import com.ibrahimcanerdogan.nasaspaceapp.domain.repository.AstronomyRepository
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.repository.AstronomyRepository
 import com.ibrahimcanerdogan.nasaspaceapp.model.astronomy.Astronomy
 
 class AstronomyRepositoryImpl(
@@ -26,7 +26,7 @@ class AstronomyRepositoryImpl(
     }
 
     private suspend fun getAstronomyDataFromAPI() : List<Astronomy> {
-        lateinit var astronomyList : List<Astronomy>
+        var astronomyList : List<Astronomy> = listOf()
         try {
             val response = astronomyRemoteDataSource.getAstronomyDataFromRemote()
             val body = response.body()
@@ -40,7 +40,7 @@ class AstronomyRepositoryImpl(
     }
 
     private suspend fun getAstronomyDataFromDB() : List<Astronomy> {
-        lateinit var astronomyList : List<Astronomy>
+        var astronomyList : List<Astronomy> = listOf()
         try {
             astronomyList = astronomyLocalDataSource.getAstronomyDataFromLocal()
         } catch (e : Exception) {

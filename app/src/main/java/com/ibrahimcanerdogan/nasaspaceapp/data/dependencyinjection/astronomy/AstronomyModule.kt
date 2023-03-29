@@ -1,7 +1,7 @@
 package com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.astronomy
 
-import com.ibrahimcanerdogan.nasaspaceapp.domain.usecase.GetAstronomyUseCase
-import com.ibrahimcanerdogan.nasaspaceapp.domain.usecase.UpdateAstronomyUseCase
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.usecase.GetAstronomyUseCase
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.usecase.UpdateAstronomyUseCase
 import com.ibrahimcanerdogan.nasaspaceapp.view.astronomy.AstronomyViewModelFactory
 import dagger.Module
 import dagger.Provides

@@ -1,6 +1,6 @@
-package com.ibrahimcanerdogan.nasaspaceapp.domain.usecase
+package com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.usecase
 
-import com.ibrahimcanerdogan.nasaspaceapp.domain.repository.AstronomyRepository
+import com.ibrahimcanerdogan.nasaspaceapp.domain.astronomy.repository.AstronomyRepository
 import com.ibrahimcanerdogan.nasaspaceapp.model.astronomy.Astronomy
 
 class GetAstronomyUseCase(

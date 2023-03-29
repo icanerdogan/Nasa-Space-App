@@ -3,6 +3,8 @@ package com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.core
 import com.ibrahimcanerdogan.nasaspaceapp.data.api.APIService
 import com.ibrahimcanerdogan.nasaspaceapp.data.repository.astronomy.datasource.AstronomyRemoteDataSource
 import com.ibrahimcanerdogan.nasaspaceapp.data.repository.astronomy.datasourceImpl.AstronomyRemoteDataSourceImpl
+import com.ibrahimcanerdogan.nasaspaceapp.data.repository.marsrover.datasource.MarsRoverRemoteDataSource
+import com.ibrahimcanerdogan.nasaspaceapp.data.repository.marsrover.datasourceImpl.MarsRoverRemoteDataSourceImpl
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -16,5 +18,11 @@ class RemoteDataModule(
     @Provides
     fun provideAstronomyRemoteDataSource(apiService: APIService) : AstronomyRemoteDataSource {
         return AstronomyRemoteDataSourceImpl(apiService, apiKey)
+    }
+
+    @Singleton
+    @Provides
+    fun provideMarsRoverRemoteDataSource(apiService: APIService) : MarsRoverRemoteDataSource {
+        return MarsRoverRemoteDataSourceImpl(apiService, apiKey)
     }
 }

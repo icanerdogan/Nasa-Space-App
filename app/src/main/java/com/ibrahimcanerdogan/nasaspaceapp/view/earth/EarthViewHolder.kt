@@ -40,9 +40,9 @@ class EarthViewHolder(
         binding.earthLunarPosition.earthLunarPositionY.text = decimalFormat.format(earth.earthLunarJ2000Position.y).toString()
         binding.earthLunarPosition.earthLunarPositionZ.text = decimalFormat.format(earth.earthLunarJ2000Position.z).toString()
         // sun position
-        binding.earthSunPosition.earthSunPositionX.text = decimalFormat.format(earth.earthSunJ2000Position.x).toString()
-        binding.earthSunPosition.earthSunPositionY.text = decimalFormat.format(earth.earthSunJ2000Position.y).toString()
-        binding.earthSunPosition.earthSunPositionZ.text = decimalFormat.format(earth.earthSunJ2000Position.z).toString()
+        binding.earthSunPosition.earthSunPositionX.text = "X = ${decimalFormat.format(earth.earthSunJ2000Position.x)}"
+        binding.earthSunPosition.earthSunPositionY.text = "Y = ${decimalFormat.format(earth.earthSunJ2000Position.y)}"
+        binding.earthSunPosition.earthSunPositionZ.text = "Z = ${decimalFormat.format(earth.earthSunJ2000Position.z)}"
 
         binding.layoutDetail.setOnClickListener {
             binding.layoutDetail.visibility = View.INVISIBLE

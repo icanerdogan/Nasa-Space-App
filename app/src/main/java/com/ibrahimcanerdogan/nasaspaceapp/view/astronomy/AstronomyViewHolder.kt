@@ -12,10 +12,6 @@ import com.ibrahimcanerdogan.nasaspaceapp.util.GlideUtil
 class AstronomyViewHolder(private val binding: CardAstronomyBinding) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(astronomy: Astronomy) {
-        binding.astronomyFavorite.bringToFront();
-        binding.astronomyFavorite.setOnClickListener {
-            // TODO : ADD FAVORITE
-        }
         // ImageView
         GlideUtil.setImageAstronomy(astronomy, binding)
 

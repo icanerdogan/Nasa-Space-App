@@ -3,6 +3,7 @@ package com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.core
 import android.content.Context
 import androidx.room.Room
 import com.ibrahimcanerdogan.nasaspaceapp.data.database.AstronomyDao
+import com.ibrahimcanerdogan.nasaspaceapp.data.database.EarthDao
 import com.ibrahimcanerdogan.nasaspaceapp.data.database.MarsRoverDao
 import com.ibrahimcanerdogan.nasaspaceapp.data.database.NasaDatabase
 import dagger.Module
@@ -30,5 +31,11 @@ class DatabaseModule {
     @Provides
     fun provideMarsRoverDao(nasaDatabase: NasaDatabase): MarsRoverDao {
         return nasaDatabase.marsRoverDao()
+    }
+
+    @Singleton
+    @Provides
+    fun provideEarthDao(nasaDatabase: NasaDatabase): EarthDao {
+        return nasaDatabase.earthDao()
     }
 }

@@ -4,7 +4,7 @@ import com.ibrahimcanerdogan.nasaspaceapp.domain.marsrover.repository.MarsRoverR
 import com.ibrahimcanerdogan.nasaspaceapp.model.marsrover.MarsRoverDetail
 
 class GetMarsRoverUseCase(
-    private val marsRoverRepository: MarsRoverRepository,
+    private val marsRoverRepository: MarsRoverRepository
 ) {
     suspend fun execute(page : Int) : List<MarsRoverDetail>? = marsRoverRepository.getMarsRoverDataFromRepository(page)
 }

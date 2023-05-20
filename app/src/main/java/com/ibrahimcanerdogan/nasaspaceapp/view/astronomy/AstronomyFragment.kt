@@ -54,6 +54,7 @@ class AstronomyFragment : Fragment() {
             val response = viewModel.updateAstronomyData()
             getAstronomyInformations(response, adapter)
             binding.refreshLayout.isRefreshing = false
+            viewPager.setCurrentItem(0, false)
         }
 
         return binding.root

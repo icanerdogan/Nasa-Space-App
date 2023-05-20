@@ -4,7 +4,9 @@ import android.app.Application
 import com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.Injector
 import com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.astronomy.AstronomySubComponent
 import com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.core.*
+import com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.earth.EarthSubComponent
 import com.ibrahimcanerdogan.nasaspaceapp.data.dependencyinjection.marsrover.MarsRoverSubComponent
+import com.ibrahimcanerdogan.nasaspaceapp.util.AppConstant
 
 class App : Application(), Injector {
 
@@ -14,8 +16,8 @@ class App : Application(), Injector {
         super.onCreate()
         appComponent = DaggerAppComponent.builder()
             .appModule(AppModule(applicationContext))
-            .netModule(NetModule("https://api.nasa.gov/"))
-            .remoteDataModule(RemoteDataModule("tfzaFa2oOmd1L3CZfyJyylMQZEuSC65Ol9msftrZ"))
+            .netModule(NetModule(AppConstant.BASE_URL))
+            .remoteDataModule(RemoteDataModule(AppConstant.API_KEY))
             .build()
 
     }
@@ -26,5 +28,9 @@ class App : Application(), Injector {
 
     override fun createMarsRoverSubComponent(): MarsRoverSubComponent {
         return appComponent.marsRoverSubComponent().create()
+    }
+
+    override fun createEarthSubComponent(): EarthSubComponent {
+        return appComponent.earthSubComponent().create()
     }
 }

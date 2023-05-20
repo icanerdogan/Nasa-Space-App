@@ -11,7 +11,6 @@ class MarsRoverViewHolder(
 
     fun bind(item : MarsRoverDetail) {
         GlideUtil.setImageMarsRover(item, binding)
-        binding.marsRoverFavorite.bringToFront();
         binding.marsRoverTextTitle.text = "${item.detailCamera.cameraFullName}"
         binding.marsRoverTextEarthDate.text = "Earth Date : ${item.detailEarthDate}"
     }

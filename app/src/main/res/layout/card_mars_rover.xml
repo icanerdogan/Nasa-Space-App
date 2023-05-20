@@ -15,18 +15,10 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/marsRoverFavorite"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_gravity="end"
-                android:layout_margin="10dp"
-                android:src="@drawable/icon_favorite_red_empty" />
-
-            <ImageView
                 android:id="@+id/marsRoverImageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/LightSteelBlue"
+                android:background="@color/black"
                 android:scaleType="center" />
 
             <LinearLayout

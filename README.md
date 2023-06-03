@@ -3,9 +3,9 @@
 ## APOD (Astronomy Picture of the Day)
 #### One of the most popular websites at NASA is the Astronomy Picture of the Day.
 
-Splash Screen           |  Astronomy Info Screen       |      Astronomy Detail Screen 
-:-------------------------:|:-------------------------: | :-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/Nasa-Space-App/master/documentation/images/splash_screenv1.png)  | ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/835cc1c7-5ef0-4976-b9f3-61d6dec5663f) | ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/0a764f50-2bae-4267-8d22-539c44e0df2f)
+ Astronomy Photo       |      Astronomy Detail 
+:-------------------------: | :-------------------------:
+![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/835cc1c7-5ef0-4976-b9f3-61d6dec5663f) | ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/0a764f50-2bae-4267-8d22-539c44e0df2f)
 
 
 ## Mars Rover Photos 

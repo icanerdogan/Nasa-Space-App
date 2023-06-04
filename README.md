@@ -26,3 +26,34 @@ Earth Photo          |  Earth Photo Detail
 :-------------------------:|:-------------------------: 
 ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/4013516d-b870-4581-a254-d1fade07e4db) | ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/e56865c7-9ecc-42ad-9365-00ddd20bac5a) | 
 
+<h2>Usage</h2>
+
+```
+https://github.com/icanerdogan/Nasa-Space-App.git 
+```
+
+<h2>License</h2>
+
+```
+MIT License
+
+Copyright (c) 2023 İbrahim Can Erdoğan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

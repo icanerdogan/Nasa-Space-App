@@ -1,5 +1,9 @@
 <h1> Nasa Space App </h1>
 
+<p>The "Nasa Space App" I developed using the API published by NASA - National Aeronautics and Space Administration has been completed. In the application, the most valuable images and information in the NASA database are brought together. Space images and detailed information about events in history, images obtained by Rover from the surface of Mars and constantly updated photos of the Earth by DSCOVR are included in the application.</p>
+
+<a href="https://medium.com/p/35afd6c91a0b"><img width="100" height="100" src="https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png"/></a>
+
 ## APOD (Astronomy Picture of the Day)
 #### One of the most popular websites at NASA is the Astronomy Picture of the Day.
 
@@ -21,3 +25,4 @@ Mars Rover Photo          |  Mars Rover Photo
 Earth Photo          |  Earth Photo Detail   
 :-------------------------:|:-------------------------: 
 ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/4013516d-b870-4581-a254-d1fade07e4db) | ![](https://github.com/icanerdogan/Nasa-Space-App/assets/52867508/e56865c7-9ecc-42ad-9365-00ddd20bac5a) | 
+

@@ -21,7 +21,7 @@ interface APIService {
     ) : Response<MarsRover>
 
     // https://api.nasa.gov/EPIC/api/natural/date/2023-05-13
-    @GET("https://api.nasa.gov/EPIC/api/natural/date/{today_date}")
+    @GET("EPIC/api/natural/date/{today_date}")
     suspend fun getEarthFromAPI(
         @Path("today_date") todayDate: String,
         @Query("api_key") apiKey: String

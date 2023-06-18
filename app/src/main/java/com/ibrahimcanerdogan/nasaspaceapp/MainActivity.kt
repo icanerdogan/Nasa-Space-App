@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = binding.bottomNavigationView
         val navController = findNavController(R.id.fragmentContainerView)
         // If you want a change app bar name according to fragment name.
-        //val appBarConfiguration = AppBarConfiguration(setOf(R.id.astronomyFragment, R.id.marsRoverFragment, R.id.favoriteFragment))
+        //val appBarConfiguration = AppBarConfiguration(setOf(R.id.astronomyFragment, R.id.marsRoverFragment, R.id.earthFragment))
         //setupActionBarWithNavController(navController, appBarConfiguration)
 
         bottomNavigationView.setupWithNavController(navController)

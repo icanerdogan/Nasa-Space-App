@@ -18,7 +18,7 @@
         tools:layout="@layout/fragment_mars_rover" >
     </fragment>
     <fragment
-        android:id="@+id/favoriteFragment"
+        android:id="@+id/earthFragment"
         android:name="com.ibrahimcanerdogan.nasaspaceapp.view.earth.EarthFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_earth" />

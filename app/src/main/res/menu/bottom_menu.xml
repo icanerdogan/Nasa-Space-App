@@ -11,7 +11,7 @@
         android:title="@string/mars_rover_photos"/>
 
     <item
-        android:id="@+id/favoriteFragment"
+        android:id="@+id/earthFragment"
         android:icon="@drawable/icon_planet"
-        android:title="@string/favorites"/>
+        android:title="@string/earth"/>
 </menu>

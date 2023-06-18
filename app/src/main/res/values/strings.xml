@@ -2,7 +2,7 @@
     <string name="app_name">Nasa Space App</string>
     <string name="astronomy_picture_of_the_day">Astronomy</string>
     <string name="mars_rover_photos">Mars Rover</string>
-    <string name="favorites">Favorites</string>
+    <string name="earth">Earth</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="coming_soon">Coming Soon…</string>
